@@ -1,0 +1,130 @@
+.homer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.homer__box{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    width: 399px;
+    height: 177px;
+}
+
+#homer__head{
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    transition: all .5s ease-in-out;
+    z-index: 2;
+}
+
+.homer:hover #homer__head{
+    bottom: 0;
+}
+
+
+#homer__hands{
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+    transition: all .5s ease-in-out;
+}
+
+.homer:hover #homer__hands{
+    bottom: 0;
+}
+
+.bubble{
+
+    background-color: white;
+    margin:  0 auto;
+    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 80%, 95.44% 85%, 85.58% 84.48%, 95% 85%, 85.58% 94.42%, 85.18% 84.48%, 5% 85%, 0% 80%, 0% 5%);
+    position: fixed;
+    right: -700px;
+    bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+
+    
+}
+
+.homer:hover  .bubble{
+    right: 15px;
+
+}
+
+.bubble__txt{
+    color: var(--color-Pants);
+     margin: 1rem 1rem 3rem;
+     font-weight: 500;
+}
+
+.bubble__txt  p{
+    margin-bottom: 1rem;
+}
+
+.rrss{
+    margin-right: 2rem;
+}
+
+.rrss:hover{
+    transform: scale(.95);
+
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 1rem 0;
+    height: 40px;
+    position: relative;
+    padding: 0 .45rem;
+    border-radius: 10px;
+    background-size: 2px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.link:hover{
+ background-color: adjust-hue(var(--color-Pants), 180deg);
+}
+
+
+.link:after{
+    content: "";
+    width: 102%;
+    height: 40px;
+    border-radius: 10px;
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -5px;
+}
+
+.links a:hover  ~ .link:after{
+    width: 50%;
+}
+
+
+
+.link p{
+
+    align-self: center;
+    padding: auto;
+    margin: auto .5rem;
+}
+
+
+.ateris, .dona{
+    width: 32px;
+    height: 32px;
+}
+

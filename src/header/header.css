@@ -1,0 +1,19 @@
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    height: 150px;
+}
+
+.header__logo a{
+    width: 250px;
+    display: flex;
+    align-items:center ;
+}
+
+#logo{
+    width: 100%;
+  }
+  

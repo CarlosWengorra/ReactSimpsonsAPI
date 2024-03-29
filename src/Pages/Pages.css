@@ -1,0 +1,35 @@
+.pages__box{
+    height: calc(100vh - 250px );
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pages__btn{
+    background-color: var(--color-AmarilloSimpson);
+    border-radius: 10px;    
+    
+
+}
+
+.pages__btn > button{
+    background-color: var(--color-AmarilloSimpson);
+    border-radius: 10px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.pages__btn > button:hover{
+    transform: scale(.95);
+}
+
+.pages__btn > button:active{
+    background-color: var(--color-NaranjaLisa);
+}
+

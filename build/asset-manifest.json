@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d863e63.css",
+    "main.js": "/static/js/main.eed12f6d.js",
+    "static/media/cielo.jpg": "/static/media/cielo.fe937d180479e0b975e6.jpg",
+    "static/media/caramia__o.png": "/static/media/caramia__o.06edce12d5e1f1acd053.png",
+    "static/media/dona.png": "/static/media/dona.4a7110fd63b2d3adf958.png",
+    "static/media/Logo.png": "/static/media/Logo.752e2d51824dcbcc283b.png",
+    "index.html": "/index.html",
+    "main.1d863e63.css.map": "/static/css/main.1d863e63.css.map",
+    "main.eed12f6d.js.map": "/static/js/main.eed12f6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d863e63.css",
+    "static/js/main.eed12f6d.js"
+  ]
+}
